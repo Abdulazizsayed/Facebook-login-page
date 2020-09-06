@@ -1,0 +1,295 @@
+/* Start Main Rules */
+.container{
+    width: 75%;
+    margin: auto
+}
+
+.leftDiv{
+    width: 57%;
+    float: left
+}
+
+.rightDiv{
+    width: 43%;
+    float:left
+}
+
+/* End Main Rules */
+
+/* Start Header */
+
+.header{
+    background-color: #3B5998;
+    height: 80px;
+    padding-bottom: 10px 
+}
+
+.header a h1{
+    color: #FFFFFF;
+    font-size: 40px;
+    margin:25px 0 0 20px 
+}
+
+.header h5{
+    margin: 20px 0 7px 0;
+    color: #FFF8EF;
+    font-size: 10px;
+    text-transform: capitalize
+}
+
+.header input{
+    width: 170px;
+    border: 0.5px solid #000;
+    margin-bottom: 4px;
+    height: 20px
+}
+
+.header button{
+    background-color: #5474b8;
+    border:0.5px solid #000;
+    color: #FFF;
+    margin-left: 10px;
+    padding:5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px
+}
+
+.header button:hover{
+    background-color: #365899
+}
+
+.header a,
+.header .forget{
+    color: #8EA6CE;
+    text-decoration: none;
+    font-size: 12px
+}
+
+.header .forget:hover{
+    text-decoration: underline
+}
+
+.header .emailDiv{
+    float: left;
+    width: 37%;
+    margin-left: 6%
+}
+
+.header .passDiv{
+    float: left;
+    width:57%
+}
+
+/* End Header */
+
+/* Start second part*/
+
+.secondPart{
+    background-color: #E9EBEE;
+    height: 700px;
+    width: 100%
+}
+
+.secondPart h1{
+    margin-left:20px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: #333
+}
+
+.secondPart p{
+    margin-left:20px;
+    color: #333;
+    margin-top: 10px
+}
+
+.secondPart .addAccount,
+.secondPart .first{
+    margin-left: 20px
+}
+
+.secondPart .addAccount,
+.secondPart .account{
+    width: 27%;
+    border:1px solid #DDDFE2;
+    padding-top: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #FFF;
+    float:left;
+    margin-right: 10px
+}
+
+.secondPart .addAccount:hover,
+.secondPart .account:hover{
+    -moz-box-shadow:3px 3px 5px 6px #ccc;
+    -webkit-box-shadow:3px 3px 5px 6px #ccc;
+    box-shadow:3px 3px 5px 6px #ccc;
+    cursor: pointer
+}
+
+.secondPart .account .image{
+    background-image: url('../images/myImage.jpg');
+    background-size: 100% 100%;
+    height: 180px;
+    margin-top: 0;
+    padding-top: 5px;
+    padding-left: 5px
+}
+
+.secondPart .account .image ul{
+    margin: 0;
+    padding-left:0px;
+    list-style: none
+}
+
+.secondPart .account .image ul a{
+    text-decoration: none
+}
+
+.secondPart .account .image ul a li i{
+    color: #000;
+    opacity: 0.7;
+    background-color: #FFF;
+    border-radius: 10px
+}
+
+.secondPart .account h4{
+    text-align: center;
+    color: #565960
+}
+
+.secondPart .addAccount{
+    margin-top: 20px
+}
+
+.secondPart .addAccount .image{
+    height: 180px;
+    margin-top: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: #F5F6F7
+}
+
+.secondPart .addAccount .image i{
+    text-align: center;
+    margin:35% 33%;
+    font-size: 70px;
+    color: #4267B2
+}
+
+.secondPart .addAccount h4{
+    text-align: center;
+    color:#4267B2
+}
+
+.secondPart .inputs{
+    margin-left: 20px;
+    width: 100%
+}
+
+.secondPart .inputs [name = "firstName"]{
+    width:50%;
+    margin-right:10px
+}
+
+.secondPart .inputs [name = "surname"]{
+    width:30%;
+}
+
+.secondPart .inputs [name = "mobileOrEmail"],
+.secondPart .inputs [name = "newPassword"]{
+    width:85.5%;
+}
+
+.secondPart .inputs input{
+    height: 40px;
+    padding-left: 10px;
+    border:1.5px solid #DDD;
+    border-radius: 5px;
+    margin-top: 10px
+}
+
+.secondPart .birthday h3,
+.secondPart .gender h3{
+    margin-left: 20px;
+    color: #90949C;
+    margin-top: 20px
+}
+
+.secondPart .birthday .first{
+    margin-left: 20px
+}
+
+.secondPart .birthday select{
+    margin:0;
+    height: 35px;
+    font-size: 15px;
+    padding:5px 10px
+}
+
+.secondPart .birthday a,
+.secondPart .gender a{
+    text-decoration: none;
+    color:#606770;
+    padding:10px;
+    font-size: 18px
+}
+
+.secondPart .gender input{
+    margin-left: 30px;
+}
+
+.secondPart .gender span{
+    color: #1D2129;
+    font-size: 18px
+}
+
+.secondPart .klam{
+    margin-left: 20px;
+    font-size: 10px;
+    color: #969696;
+    margin-right: 177px;
+    line-height: 1.5
+}
+
+.secondPart p a{
+    text-decoration: none;
+    color: #5d7dbc
+}
+
+.secondPart p a:hover,
+.secondPart strong a:hover{
+    text-decoration: underline
+}
+
+.secondPart .signUp{
+    margin-left: 20px;
+    background-color: #61974D;
+    border: 1px solid #000;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 50px;
+    border-radius: 5px;
+    margin-bottom: 20px
+}
+
+.secondPart hr{
+    color: #DDD;
+    border:1px solid #DDD;
+    margin-left: 20px
+}
+
+.secondPart strong{
+    color: #6F6F6F;
+    margin-left: 20px
+}
+
+
+.secondPart strong a{
+    text-decoration: none
+}
+
+/* End second part*/
